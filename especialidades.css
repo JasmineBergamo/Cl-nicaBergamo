@@ -8,6 +8,7 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  height: 90px;
   align-items: center;
   padding: 0px 32px;
   box-sizing: border-box;
@@ -29,4 +30,39 @@ body{
 #vermelho {
   background-color: #9B63BF;
   border-radius: 0.5rem;
+}
+
+.especialidades {
+  background: #9B63BF;
+  padding: 30px;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom:30px;
+  border-radius: 20px;
+}
+
+h1{
+  font-size: 3rem;
+  text-align:center;
+  color:#FFFFFF;
+}
+
+.nome-especialidade{
+  font-size:1.5em;
+  color: #342140;
+}
+
+.lista-especialidades{
+  display: inline;
+  vertical-align: top;
+  width: 20%;
+  margin-top: 8%;
+  margin: auto auto;
+  color:#ffffff;
+  list-style-type: none;
+}
+
+h2{
+  color: #342140;
 }
